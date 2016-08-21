@@ -6,7 +6,7 @@ if(!isset($_SESSION["session_username"])) {
 ?>
 
 
-<?php include("includes/header.php"); ?>
+<?php include("includes/header2.php"); ?>
 <div id="welcome">	
 	<h2>Bienvenido, <span><?php echo $_SESSION['session_username'];?>! </span></h2>
 	<p><a href="logout.php">Finalice</a> sesión aquí!</p>
